@@ -11,7 +11,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: yinglinzheng/yinglinzheng.github.io
+        TARGET_REPO: WinstonDeng/WinstonDeng.github.io
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: dist/
