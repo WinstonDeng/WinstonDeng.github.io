@@ -13,7 +13,7 @@ socials:
     icon: "/icons/linkedin-mono.svg"
     link: https://www.linkedin.com/in/%E8%8B%B1%E6%9E%97-%E9%83%91-b17715135/
 
-# researchgate: https://en.wikipedia.org/wiki/Harry_Potter
+# researchgate: https://en.wikipedia.org/wiki/Harry_Po
 bio: Student at Xiamen University
 email: zhengyinglin@stu.xmu.edu.cn
 ---
