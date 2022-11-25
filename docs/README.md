@@ -2,118 +2,104 @@
 pageClass: home-page
 # some data for the components
 
-name: Yinglin Zheng（郑英林）
-profile: /profile.jpg
+name: Wenjin Deng
+profile: /profile4.jpg
 
 socials:
-  # - title: github
-  #   icon: "/icons/github.svg"
-  #   link: https://github.com/elliottzheng
+  - title: github
+    icon: "/icons/github.svg"
+    link: https://github.com/WinstonDeng
+  - title: zhihu
+    icon: "/icons/zhihu.svg"
+    link: https://www.zhihu.com/people/deng-wen-jin-36-27/posts
   - title: linkedin
     icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com/in/%E8%8B%B1%E6%9E%97-%E9%83%91-b17715135/
+    link: https://www.linkedin.com/in/wenjindeng517
 
-# researchgate: https://en.wikipedia.org/wiki/Harry_Po
+# researchgate: https://en.wikipedia.org/wiki/Harry_Potter
 bio: Student at Xiamen University
-email: zhengyinglin@stu.xmu.edu.cn
+email: dengwenjin@stu.xmu.edu.cn
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
 ## About Me
+<!-- (https://vcg.xmu.edu.cn/) -->
+I'm currently a graduate student in the [Visual Computing and Graphics Lab](https://vcg.xmu.edu.cn/) of Xiamen University, supervised by associate professor [Ming Zeng](http://mingzeng.xyz/). From 2022.6 to 2022.9, I served as a research intern at [Virtual Human Group](https://fuxivirtualhuman.github.io/) of [NetEase Fuxi AI Lab](https://fuxi.163.com/), working with [Zhimeng Zhang](https://scholar.google.com/citations?user=FGRtKVoAAAAJ&hl=zh-CN&oi=ao) and [Yu Ding](https://scholar.google.com/citations?hl=zh-CN&user=T9Vd-rcAAAAJ&view_op=list_works&sortby=pubdate).
 
-I'm currently a graduate student in the [Visual Computing and Graphics Lab](https://vcg.xmu.edu.cn/) of Xiamen University, supervised by professor [Ming Zeng](http://mingzeng.xyz/). 
-
-I have spent wonderful times as an intern at Visual Computing Group, [Microsoft Research Asia(MSRA)](https://www.msra.cn/), working with [Dr. Hao Yang](https://yang-h.github.io/), [Dr. Jianmin Bao](https://jianminbao.github.io/), [Dr. Ting Zhang](https://www.microsoft.com/en-us/research/people/tinzhan/), and [Dr. Dong Chen](http://www.dongchen.pro/).
-
-My research interests lie at human-centric computer vision and graphics. I serve as the reviewer of CVPR 2022, 2023 and ECCV 2022.
-
+My research interests lie at Computer Vision and Computer Graphics. I'm particularly interested in the areas of human pose estimation, generation and animation.
 ## News
-- [Oct. 2022] I and my roommate [Wenjin Deng](https://wenjindeng.netlify.app/) won the National Scholarship for Graduate Students at the same time.
-- [Sep. 2022] My tutorial about [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) is available on [Bilibili](https://www.bilibili.com/video/BV1rW4y1Y7M5/).
-- [Jun. 2022] The [LAION-Face](https://github.com/FacePerceiver/LAION-Face) dataset was released to support large-scale face pretraining.
-- [Jun. 2022] I received the reward of Excellent from the Star of Tomorrow Internship program in Microsoft Research Asia.
-- [Apr. 2022] Our work on multi-person pose estimation named **I^2R-Net** is accepted by IJCAI 2022.
-- [Mar. 2022] [FaRL](https://github.com/FacePerceiver/FaRL) is accepted by CVPR 2022 as oral presentation.
-- [Dec. 2021] Our work on general facial representation learning named **FaRL** is released, code available on [Github](https://github.com/FacePerceiver/FaRL).
-- [Jul. 2021] Our work on Deepfake Detection accepted by ICCV 2021.
+- [Nov. 2022] Our work on talking head generation has been accepted by AAAI2023.
+- [Oct. 2022] I and my roommate [Yinglin Zheng](https://yinglinzheng.netlify.app/) won the National Scholarship for Graduate Students at the same time.
+- [Aug. 2022] Our work on talking head generation has been submitted to AAAI2023.
+- [Apr. 2022] Our work on multi-person pose estimation has been accepted by IJCAI2022.
+- [Mar. 2021] Our work on maksed face revealing is accepted by ICME 2021 as oral presentation.
+- [Feb. 2021] My [zhihu survey on human pose](https://mp.weixin.qq.com/s/PNcclVdReiay5LXvlgMEyA) is re-tweeted by several well-known AI WeChat accounts.
+- [Oct. 2020] Our work on human pose estimation is accepted by PRCV 2020.
 
+## Some of my paper co-authors
+<!-- [Jing Liao](https://liaojing.github.io/html/), Assistant Professor with the Department of Computer Science, City University of Hong Kong <br> -->
+[Ming Zeng](http://mingzeng.xyz/), Associate Professor at School of Informatics, Xiamen University <br>
+[Yinglin Zheng](https://yinglinzheng.netlify.app/), Research Intern at Visual Computing Group, Microsoft Research Asia (MSRA) <br>
+[Jinpeng Lin](https://github.com/JPlin), Researcher at AlibabaGroup <br>
 
 ## Publications
-<ProjectCard hideBorder=true image="https://s1.ax1x.com/2022/08/29/vfir5D.png">
 
-  MaskCLIP: Masked Self-Distillation Advances Contrastive Language-Image Pretraining
-
-  Xiaoyi Dong, **Yinglin Zheng**, Jianmin Bao, Ting Zhang, Dongdong Chen, Hao Yang, Ming Zeng, Weiming Zhang, Lu Yuan, Dong Chen, Fang Wen, Nenghai Yu
-
-  Arxiv preprint(2022)
-
-  [Paper](https://arxiv.org/abs/2208.12262)
-
-</ProjectCard> 
-
-<ProjectCard hideBorder=true image="https://s1.ax1x.com/2022/04/21/LyGJKK.png">
-
-  I^2R-Net: Intra- and Inter-Human Relation Network for Multi-Person Pose Estimation
-
-  Yiwei Ding, Wenjin Deng, **Yinglin Zheng**, Pengfei Liu, Jianmin Bao, Meihong Wang, Xuan Cheng, Ming Zeng, Dong Chen
-
-  2022, The 31st International Joint Conference on Artificial Intelligence (IJCAI-22)
-
-  [Paper](https://arxiv.org/abs/2206.10892) [Code](https://github.com/leijue222/Intra-and-Inter-Human-Relation-Network-for-MPEE)
-
-</ProjectCard> 
-
-
-<ProjectCard hideBorder=true image="https://s4.ax1x.com/2021/12/08/oRXqhj.png">
-
-  General Facial Representation Learning in a Visual-Linguistic Manner
-
-  **Yinglin Zheng**, Hao Yang, Ting Zhang, Jianmin Bao, Dongdong Chen, Yangyu Huang, Lu Yuan, Dong Chen, Ming Zeng, Fang Wen
-
-  2022, IEEE Conference on Computer Vision and Pattern Recognition(CVPR), Oral presentation.
-
-  [Paper](https://arxiv.org/abs/2112.03109) [Code](https://github.com/FacePerceiver/FaRL) [Dataset](https://github.com/FacePerceiver/LAION-Face)
-
-  
-
-</ProjectCard> 
-
-<ProjectCard hideBorder=true image="/projects/ftcn.png">
+<!-- <ProjectCard hideBorder=true image="/projects/dfdc_iccv.png">
 
   Exploring Temporal Coherence for More General Video Face Forgery Detection
 
   **Yinglin Zheng**, Jianmin Bao, Dong Chen, Ming Zeng, Fang Wen
 
-  2021, International Conference on Computer Vision(ICCV)
-
-  [Paper](https://arxiv.org/abs/2108.06693) [Code](https://github.com/yinglinzheng/FTCN)
-
   
 
-</ProjectCard> 
+</ProjectCard>
+--> 
+
+<ProjectCard hideBorder=true image="https://s1.ax1x.com/2022/04/21/LyGJKK.png">
+
+  I^2R-Net: Intra- and Inter-Human Relation Network for Multi-Person Pose Estimation
+
+  Yiwei Ding*, **Wenjin Deng***, Yinglin Zheng, Pengfei Liu, Jianmin Bao, Meihong Wang, Xuan Cheng, Ming Zeng, Dong Chen
+  
+  2022, The 31st International Joint Conference on Artificial Intelligence (IJCAI2022)
+
+ [Paper](https://arxiv.org/pdf/2206.10892.pdf) [Code](https://github.com/leijue222/Intra-and-Inter-Human-Relation-Network-for-MPEE)
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true image="https://s1.ax1x.com/2022/08/26/v2cJMD.png">
+
+  Improving Person Re-identification with Semantically Aligned Appearance Transformer
+
+  Hui Li, Yinglin Zheng, Zhaodong Tan, **Wenjin Deng**
+  
+  2022, IJCNN at IEEE World Congress on Computational Intelligence Chairs (WCCI2022), Oral presentation.
+
+</ProjectCard>
+
+
+<ProjectCard hideBorder=true image="/projects/contrable.png">
+
+  Controllable Facial Caricaturization with Localized Deformation and Personalized Semantic Attentions
+
+  Ming Zeng, Yinglin Zheng, Jinpeng Lin,  Xuan Cheng, Jing Liao, Zizhao Wu, **Wenjin Deng**
+
+  2021, IEEE Transactions on Multimedia PP(99):1-1.
+
+  [Link](https://ieeexplore.ieee.org/document/9535294)
+
+</ProjectCard>
 
 <ProjectCard hideBorder=true image="/projects/mask_face.png">
 
   Real-time Masked Face Revealing for Video Conference
 
-  Jinpeng Lin, Pengfei Liu, **Yinglin Zheng**, Wenjin Deng, Ming Zeng
+  Jinpeng Lin, Pengfei Liu, Yinglin Zheng, **Wenjin Deng**, Ming Zeng
 
   2021, IEEE International Conference on Multimedia and Expo (ICME), Oral presentation.
 
-  <!-- [[Link](https://www.google.com)] -->
-
-</ProjectCard>
-
-<ProjectCard hideBorder=true image="/projects/uv_iccv.png">
-
-  UV空间中的人脸颜色纹理和几何细节协同补全
-
-  程轩，刘仁帅，**郑英林**，曾鸣
-
-  2020, Chinagraph
-
-  <!-- [[Link](https://www.google.com)] -->
+  [Link](https://ieeexplore.ieee.org/document/9428117)
 
 </ProjectCard>
 
@@ -122,70 +108,95 @@ My research interests lie at human-centric computer vision and graphics. I serve
 
   VH3D-LSFM:Video-based Human 3D Pose Estimation with Long-term and Short-term Pose Fusion Mechanism
 
-  Wenjin Deng, **Yinglin Zheng**, Hui Li, Xianwei Wang, Zizhao Wu, Ming Zeng
+  **Wenjin Deng**, Yinglin Zheng, Hui Li, Xianwei Wang, Zizhao Wu, Ming Zeng
 
-  2020, Chinese Conference on Pattern Recognition and Computer Vision(PRCV)
+  2020, Chinese Conference on Pattern Recognition and Computer Vision(PRCV2020)
 
-  [Link](https://www.researchgate.net/publication/346167722_VH3D-LSFM_Video-Based_Human_3D_Pose_Estimation_with_Long-Term_and_Short-Term_Pose_Fusion_Mechanism)
-
-</ProjectCard>
-
-<ProjectCard hideBorder=true image="/projects/denoise.png">
-
-  Spatially Adaptive Regularizer for Mesh Denoising
-
-  Xuan Cheng, **Yinglin Zheng**, Yuhui Zheng, Fang Chen, Kunhui Lin
-
-  2020, IEEE Access
-
-  [Link](https://www.researchgate.net/publication/340572393_Spatially_Adaptive_Regularizer_for_Mesh_Denoising)
+  [Link](https://link.springer.com/chapter/10.1007/978-3-030-60633-6_49)
 
 </ProjectCard>
 
-<ProjectCard hideBorder=true image="/projects/joint.png">
-
-  Joint Depth-Face Translation and Facial Alignment via Multi-task Learning
-
-  2019, Multimedia Tools and Applications
-
-  Xiaoli Wang, **Yinglin Zheng**, Ming Zeng, Xuan Cheng, Wei Lu.
-
-  [Link](https://www.researchgate.net/publication/341411157_Joint_learning_for_face_alignment_and_face_transfer_with_depth_image)
-
-</ProjectCard>
 
 <!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **CopyTranslator: Foreign language reading and translation assistant based on copy and translate.**
-
+  
   CopyTranslator greatly simplify the steps required for translation, just copy the text to the clipboard, and wait to view the translation results in the next second.
-
+  
   [Homepage](https://copytranslator.github.io) [Github](https://github.com/CopyTranslator/CopyTranslator)
 
 </ProjectCard> -->
 
+## Projects
+
+<ProjectCard hideBorder=true image="/projects/case.png">
+
+  A management system for case workflow
+
+  Java Backend: **Wenjin Deng**, [Pengfei Liu](https://github.com/BlacksLiu)
+
+  H5 frontend: [Yiwei Ding](https://github.com/leijue222), **Wenjin Deng**
+  
+  2021
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true image="/projects/watermeter.png">
+
+  Watermeter Reader Autonomous System for paper *Image-Based Automatic Watermeter Reading under Challenging Environments*
+
+  Java Backend: **Wenjin Deng**, Jian Wang
+
+  H5 frontend: [Yiwei Ding](https://github.com/leijue222)
+  
+  2020
+
+  [Paper Link](https://www.mdpi.com/1424-8220/21/2/434)
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true image="/projects/iFit.png">
+  AI fitness coach in web(PC/Mobile) using our Human Pose Estimation Network. Benefit from our design, it infers well pose on user's local device with 25fps.
+
+  Human Pose Estimation Algorithm & Website: [Zihao Chen](https://github.com/sppleHao), **Wenjin Deng**
+
+  Team: Ximeng Zhou, [Zihao Chen](https://github.com/sppleHao), **Wenjin Deng**, Yilin Huang
+
+  2018.08-2019.5
+
+  [Media Report](https://www.sohu.com/a/315247559_685340)
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true image="/projects/ooad.png">
+  A course system in web(PC/Mobile) using Springboot and VUE.
+
+  Java Backend: [Shiqi Wang](https://github.com/17Wang), **Wenjin Deng**
+
+  H5 frontend: Tianyu Su, [Zihao Chen](https://github.com/sppleHao)
+
+  2018.11-2019.1
+
+  [Project Link](https://github.com/OOAD2-3/RBS)
+
+</ProjectCard>
 
 
 
 ## Awards & Honors
 
-- National Scholarship for Graduate Students, 2022
-- Stars of Tomorrow (Award of Excellent Intern), Microsoft Research Asia, 2022
-- **Rank 10** among 2265 teams in **Kaggle Deepfake Detection Challenge**.
-- **Champion** of 3D Face Alignment in the Wild Challenge (In conjunction with ICCV 2019), Seoul, Korea, 2019.
+- **Outstanding prize (1st place)** of the 12nd "Intel Cup" national undergraduate software innovation competition, Shanghai, China, 2019.
 
 
 ## Education & Experiences
+- **School of Informatics, Xiamen University.** <br/>
+Sept. 2020 - present
 
-- **Research Intern, Visual Computing Group, Microsoft Research Asia** <br/>
-Sep. 2020 - Mar. 2022
+- **School of Informatics, Xiamen University, B.S.** <br/>
+Sept. 2016 - 2020
 
-- **Master’s Student of Computer Science, School of Informatics, Xiamen University** <br/>
-Sep. 2020 - present
-
-- **Bachelor of Software Engineering, School of Informatics, Xiamen University** <br/>
-Sep. 2016 - Jun. 2020
-
+## Thanks
+Great thanks to my friend [Yinglin Zheng](https://yinglinzheng.netlify.app/).
 <!-- Custom style for this page -->
 
 <style lang="stylus">
