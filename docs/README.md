@@ -12,23 +12,34 @@ socials:
   - title: zhihu
     icon: "/icons/zhihu.svg"
     link: https://www.zhihu.com/people/deng-wen-jin-36-27/posts
-  - title: linkedin
-    icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com/in/wenjindeng517
+  - title: google scholar
+    icon: "/icons/google-scholar.svg"
+    link: https://scholar.google.com/citations?user=xi3HtBUAAAAJ&hl=zh-CN
+  # - title: CSIG Member
 
 # researchgate: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Xiamen University
-email: dengwenjin@stu.xmu.edu.cn
+# Student at Xiamen University 
+bio: SSP = Strong + Smart + Professional 
+# 本是尘世一蚍蜉，何须争与鹏高起
+# 仰势乘风浮塔尖，自在静悟九万里
+email: winston.deng@momenta.ai / dengwenjin@stu.xmu.edu.cn  
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
+- CSIG Member
+
 ## About Me
 <!-- (https://vcg.xmu.edu.cn/) -->
-I'm currently a graduate student in the [Visual Computing and Graphics Lab](https://vcg.xmu.edu.cn/) of Xiamen University, supervised by associate professor [Ming Zeng](http://mingzeng.xyz/). From 2022.6 to 2022.9, I served as a research intern at [Virtual Human Group](https://fuxivirtualhuman.github.io/) of [NetEase Fuxi AI Lab](https://fuxi.163.com/), working with [Zhimeng Zhang](https://scholar.google.com/citations?user=FGRtKVoAAAAJ&hl=zh-CN&oi=ao) and [Yu Ding](https://scholar.google.com/citations?hl=zh-CN&user=T9Vd-rcAAAAJ&view_op=list_works&sortby=pubdate).
+I'm currently R&D Engineer in [Momenta](https://www.momenta.cn/en/), working on MSD (Momenta Self-Driving).
 
-My research interests lie at Computer Vision and Computer Graphics. I'm particularly interested in the areas of human pose estimation, generation and animation.
+Before that I got my Master's degree and Bachelor's degree in the School of Informatics at Xiamen University. Especially, I spent wonderful time from 2019 to 2023 in the [Visual Computing and Graphics Lab](https://vcg.xmu.edu.cn/), supervised by associate professor [Ming Zeng](http://mingzeng.xyz/). In 2022.6 -2022.9, I served as a virutal human research intern at [Virtual Human Group](https://fuxivirtualhuman.github.io/) of [NetEase Fuxi AI Lab](https://fuxi.163.com/), working with [Zhimeng Zhang](https://scholar.google.com/citations?user=FGRtKVoAAAAJ&hl=zh-CN&oi=ao) and [Yu Ding](https://scholar.google.com/citations?hl=zh-CN&user=T9Vd-rcAAAAJ&view_op=list_works&sortby=pubdate).
+
+My research interests lie at Computer Vision and Computer Graphics. I'm particularly interested in the areas of human-centric perception (pose estimation, restruction), generation and animation (speech audio or natural language driven).
 ## News
+- [Oct. 2023] Our work on 3D Human Reconstruction has been accepted by Graphical Models.
+- [Sep. 2023] Our two National Invention Patents from China have been officially granted.
+- [Nov. 2022] Our work on singing head generation has been accepted by CVM2023 and CVMJ.
 - [Nov. 2022] Our work on talking head generation has been accepted by AAAI2023.
 - [Oct. 2022] I and my roommate [Yinglin Zheng](https://yinglinzheng.netlify.app/) won the National Scholarship for Graduate Students at the same time.
 - [Aug. 2022] Our work on talking head generation has been submitted to AAAI2023.
@@ -45,16 +56,42 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
 ## Publications
 
-<!-- <ProjectCard hideBorder=true image="/projects/dfdc_iccv.png">
+<ProjectCard hideBorder=true image="https://ars.els-cdn.com/content/image/1-s2.0-S1524070323000371-ga1_lrg.jpg">
 
-  Exploring Temporal Coherence for More General Video Face Forgery Detection
+  Vertex position estimation with spatial–temporal transformer for 3D human reconstruction
 
-  **Yinglin Zheng**, Jianmin Bao, Dong Chen, Ming Zeng, Fang Wen
-
+  Xiangjun Zhang, Yinglin Zheng, **Wenjin Deng**, Qifeng Dai, Yuxin Lin, Wangzheng Shi, Ming Zeng
   
+  2023, Graphical Models
+
+ [Paper](https://www.sciencedirect.com/science/article/pii/S1524070323000371)
 
 </ProjectCard>
---> 
+
+
+<ProjectCard hideBorder=true image="/musicface.png">
+
+  MusicFace: Music-driven Expressive Singing Face Synthesis
+
+  Pengfei Liu, **Wenjin Deng**, Hengda Li, Jintai Wang, Yinglin Zheng, Yiwei Ding, Xiaohu Guo, Ming Zeng
+  
+  2022, The Computational Visual Media Conference (CVM2023)
+
+ [Paper](https://arxiv.org/pdf/2303.14044.pdf) [Data](https://vcg.xmu.edu.cn/datasets/singingface/index.html)
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true image="/dinet.png">
+
+  DINet: Deformation Inpainting Network for Realistic Face Visually Dubbing on High Resolution Video
+
+  Zhimeng Zhang*, Zhipeng Hu*, **Wenjin Deng***, Changjie Fan, Tangjie Lv, Yu Ding*
+  
+  2022, Thirty-Seventh AAAI Conference on Artificial Intelligence. (AAAI2023)
+
+ [paper](https://fuxivirtualhuman.github.io/pdf/AAAI2023_FaceDubbing.pdf) [Code](https://github.com/MRzzm/DINet) 
+
+</ProjectCard>
 
 <ProjectCard hideBorder=true image="https://s1.ax1x.com/2022/04/21/LyGJKK.png">
 
@@ -68,7 +105,7 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
 </ProjectCard>
 
-<ProjectCard hideBorder=true image="https://s1.ax1x.com/2022/08/26/v2cJMD.png">
+<!-- <ProjectCard hideBorder=true image="https://s1.ax1x.com/2022/08/26/v2cJMD.png">
 
   Improving Person Re-identification with Semantically Aligned Appearance Transformer
 
@@ -76,7 +113,7 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
   
   2022, IJCNN at IEEE World Congress on Computational Intelligence Chairs (WCCI2022), Oral presentation.
 
-</ProjectCard>
+</ProjectCard> -->
 
 
 <ProjectCard hideBorder=true image="/projects/contrable.png">
@@ -85,7 +122,7 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
   Ming Zeng, Yinglin Zheng, Jinpeng Lin,  Xuan Cheng, Jing Liao, Zizhao Wu, **Wenjin Deng**
 
-  2021, IEEE Transactions on Multimedia PP(99):1-1.
+  2021, IEEE Transactions on Multimedia (TMM2021).
 
   [Link](https://ieeexplore.ieee.org/document/9535294)
 
@@ -97,7 +134,7 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
   Jinpeng Lin, Pengfei Liu, Yinglin Zheng, **Wenjin Deng**, Ming Zeng
 
-  2021, IEEE International Conference on Multimedia and Expo (ICME), Oral presentation.
+  2021, IEEE International Conference on Multimedia and Expo (ICME2021), Oral presentation.
 
   [Link](https://ieeexplore.ieee.org/document/9428117)
 
@@ -110,22 +147,64 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
   **Wenjin Deng**, Yinglin Zheng, Hui Li, Xianwei Wang, Zizhao Wu, Ming Zeng
 
-  2020, Chinese Conference on Pattern Recognition and Computer Vision(PRCV2020)
+  2020, Chinese Conference on Pattern Recognition and Computer Vision (PRCV2020)
 
   [Link](https://link.springer.com/chapter/10.1007/978-3-030-60633-6_49)
 
 </ProjectCard>
 
 
-<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
-  **CopyTranslator: Foreign language reading and translation assistant based on copy and translate.**
-  
-  CopyTranslator greatly simplify the steps required for translation, just copy the text to the clipboard, and wait to view the translation results in the next second.
-  
-  [Homepage](https://copytranslator.github.io) [Github](https://github.com/CopyTranslator/CopyTranslator)
+## Patents and Copyrights
+
+<ProjectCard hideBorder=true image="/virtual_pose.png">
+
+ \[中国国家发明专利\] CN202111117800.8 一种感知环境的语音驱动虚拟人姿态合成方法 （已授权）  
+
+  曾鸣;**邓文晋**;丁艺伟;刘鹏飞
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true image="/pose.png">
+
+ \[中国国家发明专利\] CN202011092625.7 一种利用长短期信息融合的视频三维人体姿态估计算法 （已授权）
+
+  曾鸣;**邓文晋**
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true>
+
+ - \[中国国家发明专利\] CN202110750794.3 一种利用语音信息的实时视频人脸区域时空一致合成方法 （公审中）
+
+  曾鸣;刘鹏飞;**邓文晋**
+
+ - \[中国国家发明专利\] CN202011408727.5 一种增强医患相互信任减少医患矛盾评估预警系统 （公审中）
+
+  赵一麟;曾鸣;**邓文晋**;刘秋松;张红建;潘恒;丁艺伟;周旭;郭鹏;周媛媛;刘凤武
+
+ - \[软件著作权\] 2019SR0447844 智能交互健身系统 （已授权）
+
+  曾鸣,周熙盟,黄译嶙,陈梓豪,**邓文晋**
+
+</ProjectCard>
+
+<!-- <ProjectCard hideBorder=true>
+
+ \[中国国家发明专利\] CN202011408727.5 一种增强医患相互信任减少医患矛盾评估预警系统 （公审中）
+
+  赵一麟;曾鸣;**邓文晋**;刘秋松;张红建;潘恒;丁艺伟;周旭;郭鹏;周媛媛;刘凤武
+
+</ProjectCard>
+
+<ProjectCard hideBorder=true>
+
+ \[软件著作权\] 2019SR0447844 智能交互健身系统 （已授权）
+
+  曾鸣,周熙盟,黄译嶙,陈梓豪,**邓文晋**
 
 </ProjectCard> -->
+
 
 ## Projects
 
@@ -185,19 +264,32 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
 ## Awards & Honors
 
+- National Scholarship for Graduate Students, Xiamen University, China, 2022
+- Cho Tak Wong Scholarship, Xiamen University, China, 2021
 - **Outstanding prize (1st place)** of the 12nd "Intel Cup" national undergraduate software innovation competition, Shanghai, China, 2019.
 
 
 ## Education & Experiences
-- **School of Informatics, Xiamen University.** <br/>
-Sept. 2020 - present
+- **Momenta Self-Driving, Momenta, R&D Engineer.** <br/>
+Jul. 2023 - Present
+
+- **Virtual Human Group, NetEase Fuxi AI Lab, Research Intern.** <br/>
+Jun. 2022 - Sept. 2022
+
+- **School of Informatics, Xiamen University, M.S.** <br/>
+Sept. 2020 - Jun. 2023
 
 - **School of Informatics, Xiamen University, B.S.** <br/>
-Sept. 2016 - 2020
+Sept. 2016 - Jun. 2020
 
 ## Thanks
 Great thanks to my friend [Yinglin Zheng](https://yinglinzheng.netlify.app/).
 <!-- Custom style for this page -->
+
+
+<a href="http://www.easycounter.com/">
+<img src="http://www.easycounter.com/counter.php?whiteair" border="0" alt="stats counter">
+</a>
 
 <style lang="stylus">
 
