@@ -81,7 +81,7 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
 </ProjectCard>
 
-<ProjectCard hideBorder=true image="/dinet.png">
+<ProjectCard hideBorder=true image="/DINet.png">
 
   DINet: Deformation Inpainting Network for Realistic Face Visually Dubbing on High Resolution Video
 
