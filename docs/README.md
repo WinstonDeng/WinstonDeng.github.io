@@ -115,7 +115,6 @@ My research interests lie at Computer Vision and Computer Graphics. I'm particul
 
 </ProjectCard> -->
 
-
 <ProjectCard hideBorder=true image="/projects/contrable.png">
 
   Controllable Facial Caricaturization with Localized Deformation and Personalized Semantic Attentions
