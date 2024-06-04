@@ -31,11 +31,11 @@ email: winston.deng@momenta.ai / dengwenjin@stu.xmu.edu.cn
 
 ## About Me
 <!-- (https://vcg.xmu.edu.cn/) -->
-I'm currently R&D Engineer in [Momenta](https://www.momenta.cn/en/), working on MSD (Momenta Self-Driving).
+I'm currently Vision Algorithm Researcher in [StepFun](https://www.stepfun.com/), working with [Binxing Jiao](https://scholar.google.com/citations?user%253DtAAjbqgAAAAJ%2526hl%253Den) and [Yanan Wei](#). Before that I was served as R&D Engineer in [Momenta](https://www.momenta.cn/en/), working on MSD (Momenta Self-Driving).
 
-Before that I got my Master's degree and Bachelor's degree in the School of Informatics at Xiamen University. Especially, I spent wonderful time from 2019 to 2023 in the [Visual Computing and Graphics Lab](https://vcg.xmu.edu.cn/), supervised by associate professor [Ming Zeng](http://mingzeng.xyz/). In 2022.6 -2022.9, I served as a virutal human research intern at [Virtual Human Group](https://fuxivirtualhuman.github.io/) of [NetEase Fuxi AI Lab](https://fuxi.163.com/), working with [Zhimeng Zhang](https://scholar.google.com/citations?user=FGRtKVoAAAAJ&hl=zh-CN&oi=ao) and [Yu Ding](https://scholar.google.com/citations?hl=zh-CN&user=T9Vd-rcAAAAJ&view_op=list_works&sortby=pubdate).
+I got my Master's degree and Bachelor's degree in the School of Informatics at Xiamen University. Especially, I spent wonderful time from 2019 to 2023 in the [Visual Computing and Graphics Lab](https://vcg.xmu.edu.cn/), supervised by associate professor [Ming Zeng](http://mingzeng.xyz/). In 2022.6 -2022.9, I served as a virutal human research intern at [Virtual Human Group](https://fuxivirtualhuman.github.io/) of [NetEase Fuxi AI Lab](https://fuxi.163.com/), working with [Zhimeng Zhang](https://scholar.google.com/citations?user=FGRtKVoAAAAJ&hl=zh-CN&oi=ao) and [Yu Ding](https://scholar.google.com/citations?hl=zh-CN&user=T9Vd-rcAAAAJ&view_op=list_works&sortby=pubdate).
 
-My research interests lie at Computer Vision and Computer Graphics. I'm particularly interested in the areas of human-centric perception (pose estimation, restruction), generation and animation (speech audio or natural language driven).
+My research interests lie at Computer Vision and Multi-modality LLM. I'm particularly interested in the areas of human-centric perception (pose estimation, restruction), generation and animation (speech audio or natural language driven).
 ## News
 - [Oct. 2023] Our work on 3D Human Reconstruction has been accepted by Graphical Models.
 - [Sep. 2023] Our two National Invention Patents from China have been officially granted.
