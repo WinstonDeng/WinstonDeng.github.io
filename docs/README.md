@@ -22,7 +22,7 @@ socials:
 bio: SSP = Strong + Smart + Professional 
 # 本是尘世一蚍蜉，何须争与鹏高起
 # 仰势乘风浮塔尖，自在静悟九万里
-email: winston.deng@momenta.ai / dengwenjin@stu.xmu.edu.cn  
+email: winston.deng@stepfun.com / dengwenjin@stu.xmu.edu.cn  
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
