@@ -268,12 +268,7 @@ My research interests lie at Computer Vision and Multi-modality LLM. I'm particu
 - **Outstanding prize (1st place)** of the 12nd "Intel Cup" national undergraduate software innovation competition, Shanghai, China, 2019.
 
 
-## Education & Experiences
-- **Momenta Self-Driving, Momenta, R&D Engineer.** <br/>
-Jul. 2023 - Present
-
-- **Virtual Human Group, NetEase Fuxi AI Lab, Research Intern.** <br/>
-Jun. 2022 - Sept. 2022
+## Education 
 
 - **School of Informatics, Xiamen University, M.S.** <br/>
 Sept. 2020 - Jun. 2023
