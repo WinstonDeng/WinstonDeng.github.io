@@ -155,8 +155,8 @@ My research interests lie at Computer Vision and Multi-modality LLM. I'm particu
 
 
 ## Patents and Copyrights
-
-<ProjectCard hideBorder=true image="/virtual_pose.png">
+<!--
+<ProjectCard hideBorder=true >
 
  \[中国国家发明专利\] CN202111117800.8 一种感知环境的语音驱动虚拟人姿态合成方法 （已授权）  
 
@@ -164,21 +164,29 @@ My research interests lie at Computer Vision and Multi-modality LLM. I'm particu
 
 </ProjectCard>
 
-<ProjectCard hideBorder=true image="/pose.png">
+<ProjectCard hideBorder=true >
 
  \[中国国家发明专利\] CN202011092625.7 一种利用长短期信息融合的视频三维人体姿态估计算法 （已授权）
 
   曾鸣;**邓文晋**
 
 </ProjectCard>
+-->
 
 <ProjectCard hideBorder=true>
+ - \[中国国家发明专利\] CN202111117800.8 一种感知环境的语音驱动虚拟人姿态合成方法 （已授权）  
 
- - \[中国国家发明专利\] CN202110750794.3 一种利用语音信息的实时视频人脸区域时空一致合成方法 （公审中）
+  曾鸣;**邓文晋**;丁艺伟;刘鹏飞
+
+ - \[中国国家发明专利\] CN202011092625.7 一种利用长短期信息融合的视频三维人体姿态估计算法 （已授权）
+
+  曾鸣;**邓文晋**
+  
+ - \[中国国家发明专利\] CN202110750794.3 一种利用语音信息的实时视频人脸区域时空一致合成方法 （已授权）
 
   曾鸣;刘鹏飞;**邓文晋**
 
- - \[中国国家发明专利\] CN202011408727.5 一种增强医患相互信任减少医患矛盾评估预警系统 （公审中）
+ - \[中国国家发明专利\] CN202011408727.5 一种增强医患相互信任减少医患矛盾评估预警系统 （已授权）
 
   赵一麟;曾鸣;**邓文晋**;刘秋松;张红建;潘恒;丁艺伟;周旭;郭鹏;周媛媛;刘凤武
 
