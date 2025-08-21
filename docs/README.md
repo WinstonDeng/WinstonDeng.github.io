@@ -31,7 +31,7 @@ email: dengwenjin@stepfun.com / dengwenjin@stu.xmu.edu.cn
 
 ## About Me
 <!-- (https://vcg.xmu.edu.cn/) -->
-I'm currently Vision Algorithm Researcher in [StepFun](https://www.stepfun.com/), working with [Binxing Jiao](https://scholar.google.com/citations?user=tAAjbqgAAAAJ&hl=zh-CN&oi=ao) and [Yanan Wei](#). Before that I was served as R&D Engineer in [Momenta](https://www.momenta.cn/en/), working on perception group of MSD (Momenta Self-Driving).
+I'm currently an AI Researcher & Engineer at in [StepFun](https://www.stepfun.com/), focusing on Agentic Model, supervised by [Binxing Jiao](https://scholar.google.com/citations?user=tAAjbqgAAAAJ&hl=zh-CN&oi=ao) and [Chen Hu](https://scholar.google.com/citations?hl=zh-CN&user=z9SAY1UAAAAJ). Before that I served as R&D Engineer in [Momenta](https://www.momenta.cn/en/), working on perception group of MSD (Momenta Self-Driving).
 
 I got my Master's degree and Bachelor's degree in the School of Informatics at Xiamen University. Especially, I spent wonderful time from 2019 to 2023 in the [Visual Computing and Graphics Lab](https://vcg.xmu.edu.cn/), supervised by associate professor [Ming Zeng](http://mingzeng.xyz/). In 2022.6 -2022.9, I served as a virutal human research intern at [Virtual Human Group](https://fuxivirtualhuman.github.io/) of [NetEase Fuxi AI Lab](https://fuxi.163.com/), working with [Zhimeng Zhang](https://scholar.google.com/citations?user=FGRtKVoAAAAJ&hl=zh-CN&oi=ao) and [Yu Ding](https://scholar.google.com/citations?hl=zh-CN&user=T9Vd-rcAAAAJ&view_op=list_works&sortby=pubdate).
 
@@ -335,3 +335,4 @@ Great thanks to my friend [Yinglin Zheng](https://yinglinzheng.netlify.app/).
           max-width 400px
 
 </style>
+
