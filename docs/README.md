@@ -3,7 +3,7 @@ pageClass: home-page
 # some data for the components
 
 name: Wenjin Deng
-profile: /profile4.jpg
+profile: /profile_dwj_gpt_2_tiny.png
 
 socials:
   - title: github
@@ -335,5 +335,6 @@ Great thanks to my friend [Yinglin Zheng](https://yinglinzheng.netlify.app/).
           max-width 400px
 
 </style>
+
 
 
