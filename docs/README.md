@@ -27,8 +27,6 @@ email: dengwenjin@stepfun.com / dengwenjin@stu.xmu.edu.cn
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-- CSIG Member
-
 ## About Me
 <!-- (https://vcg.xmu.edu.cn/) -->
 I'm currently an AI Researcher & Engineer & TPM in [StepFun](https://www.stepfun.com/), focusing on Agentic Model, working with [Binxing Jiao](https://scholar.google.com/citations?user=tAAjbqgAAAAJ&hl=zh-CN&oi=ao), [Zheng Ge](https://scholar.google.com/citations?hl=zh-CN&user=hJ-VrrIAAAAJ) and [Daxin Jiang](https://scholar.google.com/citations?hl=zh-CN&user=N-wAHCoAAAAJ). Before that I served as R&D Engineer in [Momenta](https://www.momenta.cn/en/), working on perception group of MSD (Momenta Self-Driving).
